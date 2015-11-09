@@ -1,9 +1,9 @@
-*****************************************************
-Project Name:  Recipe Display Application
+************************************************************************
+Project Name:  Recipe Display Application  --  Project Quiz
 Author: 
 Date:   
 Participation Assignment (25 points)
-*****************************************************
+************************************************************************
 
 Instructions:  
 Answer the following questions for Lesson 7 Assignment
@@ -13,7 +13,7 @@ Question #1:  (5 points)
 ++++++++++++
 Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
 
-
+The order ensures that browsers parse the contents of the jquery library before attempting to interpret the Jquery statements in script.js. Otherwise the Jquery syntax in script.js could cause syntax errors if browsers encounter it before parsing the Jquery library. 
 
 
 ++++++++++++
@@ -21,7 +21,7 @@ Question #2:  (5 points)
 ++++++++++++
 Why should you avoid including jQuery in a project if you don't need it?
 
-
+JQuery can slow the time required for your app to load because users have to download the JQuery library. 
 
 
 
@@ -30,7 +30,7 @@ Why should you avoid including jQuery in a project if you don't need it?
 Question #3:  (5 points)
 ++++++++++++
 How does every jQuery statement start?
-
+The $ that starts every jQuery statement is an alias, which is an alternative name. 
 
 
 
@@ -39,3 +39,6 @@ How does every jQuery statement start?
 Question #4: (10 points)
 ++++++++++++
 What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+
+A content delivery network is a large distributed system of proxy servers deployed in multiple data centers via the Internet.
+CDNs are optimized for quick delivery of files across the globe, when linking to a file on CDN it provides an improved user experience. A CDN can distribute the load, save bandwidth, boost performance and reduce your existing hosting costs.
